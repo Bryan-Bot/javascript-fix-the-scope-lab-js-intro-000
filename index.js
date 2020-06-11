@@ -2,7 +2,6 @@ var animal = 'dog'
 
 function myAnimal() {
   // You should not need to modify this function
-  animal = 'cat'
   return animal
 }
 
@@ -12,6 +11,7 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: Hard-coding 'cat' below will not work
+  animal = 'cat'
   return animal
 }
 
